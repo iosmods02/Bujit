@@ -1,0 +1,20 @@
+{
+  "name": "product-scraper-server",
+  "version": "1.0.0",
+  "description": "Puppeteer-based product scraper server for iOS app",
+  "main": "scraper-server.js",
+  "scripts": {
+    "start": "node scraper-server.js",
+    "dev": "nodemon scraper-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
